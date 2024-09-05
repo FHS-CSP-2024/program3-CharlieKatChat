@@ -45,3 +45,37 @@
 #print("\n") # newline
 #print("\t") # tab
 #print("\\") # \
+
+
+myString = 'something'
+myInt = 100
+myFloat = 2.5
+
+#casting
+print(myInt/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
+
+num1 = int(input("Please enter a number "))
+
+print(num1 + num1)
+
+print("My int = " + str(myInt))
+
+
+thing = 500/6
+print(thing)
+print("My result is " + str(thing))
+print("My result is", thing) #comma adds a space
+print(f"My result is {thing}") #fstring - {} are for variables
+
+
+print("First line\nSecond line\nThird line")
+print("List header")
+print("\t* Item1")
+print("\t* Item2")
+print("\t* Item3\n\t* Item4\n\t* Item5")
+
+#File path example
+#C:\Users\myname\Documents\OneNote Notebooks
+print("C:\\Users\\mrJohnson\\Document\\OKDJflsjkdfalksd...")
